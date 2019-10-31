@@ -6,39 +6,41 @@
     // var ones = userInput[0];
     var resultArray = [];
     if (userInput.length === 3 && parseInt(userInput.join("")) >= 500 && parseInt(userInput.join(""))  <= 899) {
-      resultArray.push(userInput[0] = "D"); //hundreds
+      resultArray.push(userInput = "D"); //hundreds
       console.log(resultArray)
     } else if (userInput.length === 3 && parseInt(userInput.join("")) >= 900) {
-    resultArray.push(userInput[0] = "C");
+    resultArray.push(userInput = "C");
     console.log(resultArray)
     } else if (userInput.length === 3 && parseInt(userInput.join("")) <= 400) {
-    resultArray.push(userInput[0] = "C");
+    resultArray.push(userInput = "C");
     console.log(resultArray)
     }
     if (userInput.length === 2 && parseInt(userInput.join("")) <= 40) {
-    resultArray.push( userInput[0] = "X");      //tens
+    resultArray.push( userInput = "X");      //tens
       console.log(resultArray)
     }  else if (userInput.length === 2 && parseInt(userInput.join("")) >= 50 && parseInt(userInput.join(""))  <= 89) {
-    resultArray.push(userInput[0] = "L");
+    resultArray.push(userInput = "L");
       console.log(resultArray)
     } else if (userInput.length === 2 && parseInt(userInput.join("")) >= 90) {
-    resultArray.push(userInput[0] = "X")
+    resultArray.push(userInput = "X")
       console.log(resultArray)
 }
-    if (userInput.length === 1 && parseInt(userInput.join("")) <= 4){
-    resultArray.push(userInput[0] = "I") //ones
+    if (userInput.length === 1 && parseInt(userInput.join("")) <= 4) {
+    resultArray.push(userInput = "I") //ones
       console.log(resultArray)
     }  else if (userInput.length === 1 && parseInt(userInput.join("")) >= 5 && parseInt(userInput.join(""))  <= 8) {
-    resultArray.push(userInput[0] = "V");
+    resultArray.push(userInput = "V");
       console.log(resultArray)
     } else if (userInput.length === 1 && parseInt(userInput.join("")) >= 9) {
-    resultArray.push(userInput[0] = "I");
+    resultArray.push(userInput = "I");
       console.log(resultArray)
 }
+  if (userInput.length === 4 ){
+  resultArray.push(userInput = "M") //ones
+    console.log(resultArray)
 
 
-
-
+}
 }
 
 //user interface logic
