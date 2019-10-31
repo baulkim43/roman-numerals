@@ -24,7 +24,7 @@
     } else if (userInput.length === 2 && parseInt(userInput.join("")) >= 90) {
     resultArray.push(userInput = "X")
       console.log(resultArray)
-}
+    }
     if (userInput.length === 1 && parseInt(userInput.join("")) <= 4) {
     resultArray.push(userInput = "I") //ones
       console.log(resultArray)
